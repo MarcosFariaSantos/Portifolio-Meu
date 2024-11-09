@@ -1,0 +1,59 @@
+body{
+    background-image: url("nebulosa-no-espaco-exterior_939992-10005.png");
+    background-size: cover;
+}
+   body{
+    justify-content: flex-start; 
+    align-items: start;
+    display: flex;
+
+   }
+    
+    
+
+
+
+#img{ border-radius: 50%;
+ width: 200px;
+ height: 230px;
+border: 2px solid blue;
+position: relative;
+margin-top: 40px ;
+margin-bottom:20px ;
+margin-right:50px ;
+}
+
+
+#quadro{                             /* o quadro onde fica a escrita*/      
+    border-radius:5% ;
+    height: 265px;
+    width: 265%;
+    background-color: white;
+     align-items: end ;
+     display: flex;
+     flex-direction: row;
+     margin-top: 2vh;
+     justify-content: space-between;
+     background-color: rgb(196, 255, 230);
+     
+}
+#texto{
+   font-size: 18px;
+   flex-direction: row;
+   align-self: flex-start;
+   margin-left: 60px;
+
+}
+h3{
+    color: red;
+    
+}
+#projetos{
+    color: yellow;
+    font-size: large;
+    
+}
+#projetos{
+    color: yellow;
+    font-size: larger;
+}
